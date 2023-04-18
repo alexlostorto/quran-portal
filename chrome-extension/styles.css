@@ -1,0 +1,46 @@
+/* Default Styles */
+::selection {
+    background-color: rgba(255, 207, 103, 0.781);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: black;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+section header span {
+    font-size: 1rem;
+}
+
+input {
+    width: 80px;
+    border: 0;
+    outline: 0;
+    padding: 3px;
+    margin: 30px 10px 10px 10px;
+    font-family: "Roboto Mono", monospace;
+    background: transparent;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+input[type=number] {
+    padding-left: 15px;
+}
+
+::placeholder {
+    color: rgb(50, 50, 50);
+}
