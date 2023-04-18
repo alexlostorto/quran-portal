@@ -15,7 +15,17 @@ Welcome to **Quran Portal**, an extension designed to quickly access a page on [
 
 > **Note** The extension should now appear in the Extensions tab, and you can use it as you normally would.
 
-## Credits
+## 📋 How to Use
+
+**Click** on the extension, type a number and press _Enter_!
+
+<p align="left">
+  <img width="10%" src="https://github.com/alexlostorto/quran-portal/raw/main/.github/popup.png">
+</p>
+
+A new tab will open on [**Quran.com**](https://quran.com/) with the desired page number.
+
+## 📜 Credits
 
 Everything is coded by Alex lo Storto
 
