@@ -20,7 +20,7 @@ Welcome to **Quran Portal**, an extension designed to quickly access a page on [
 **Click** on the extension, type a number and press _Enter_!
 
 <p align="left">
-  <img width="10%" src="https://github.com/alexlostorto/quran-portal/raw/main/.github/popup.png">
+  <img width="150px" src="https://github.com/alexlostorto/quran-portal/raw/main/.github/popup.png">
 </p>
 
 A new tab will open on [**Quran.com**](https://quran.com/) with the desired page number.
