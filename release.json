@@ -1,8 +1,0 @@
-{
-    "version": "v1.1.0",
-    "dependencies": {
-        "js": [],
-        "css": []
-    },
-    "contentScript": "https://cdn.jsdelivr.net/gh/alexlostorto/quran-portal@v1.1.0/console/console.js"
-}
