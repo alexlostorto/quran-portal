@@ -37,7 +37,7 @@
   ],
 
   "web_accessible_resources": [{
-    "resources": ["console.js", "styles.css"],
+    "resources": ["inject.js", "styles.css"],
     "matches": ["<all_urls>"]
   }]
 }
