@@ -1,6 +1,10 @@
 <h1 align="center">Quran Portal</h1>
 
-Welcome to **Quran Portal**, an extension designed to quickly access a page on [**Quran.com**](https://quran.com/).
+<p align="center">
+  <b>A browser extension to quickly access pages on <a href="https://quran.com/" target="_blank">Quran.com</a></b>
+</p>
+
+[![Maintainability](https://img.shields.io/codeclimate/maintainability/alexlostorto/quran-portal?style=for-the-badge&message=Code+Climate&labelColor=222222&logo=Code+Climate&logoColor=FFFFFF)](https://codeclimate.com/github/alexlostorto/quran-portal/maintainability)
 
 ## ⚡ Install Instructions
 
@@ -20,7 +24,7 @@ Welcome to **Quran Portal**, an extension designed to quickly access a page on [
 **Click** on the extension, type a number and press _Enter_!
 
 <p align="left">
-  <img width="10%" src="https://github.com/alexlostorto/quran-portal/raw/main/.github/popup.png">
+  <img width="150px" src="https://github.com/alexlostorto/quran-portal/raw/main/.github/popup.png">
 </p>
 
 A new tab will open on [**Quran.com**](https://quran.com/) with the desired page number.
