@@ -1,31 +1,43 @@
 {
-    "manifest_version": 3,
-    "name": "Quran Portal",
-    "version": "1.0.0",
-    "description": "Quickly access a page on Quran.com",
+  "manifest_version": 3,
+  "name": "Quran Debugger",
+  "version": "1.1.0",
+  "description": "Quickly access a page on Quran.com",
 
-    "host_permissions": [
-      "https://outlook.office.com/*"
-    ],
+  "host_permissions": [
+    "*://quran.com/*",
+    "https://quran.com/*"
+  ],
+
+  "icons": {
+    "16": "favicon-16.png",
+    "32": "favicon-32.png",
+    "128": "favicon-48.png"
+  },
+
+  "action": {
+    "default_icon": {
+      "32": "favicon-48.png"
+    },
+    "default_title": "Quran Portal",
+    "default_popup": "popup.html"
+  },
   
-    "icons": {
-      "16": "favicon-16.png",
-      "32": "favicon-32.png",
-      "128": "favicon-48.png"
-    },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "downloads"
+  ],
 
-    "action": {
-      "default_icon": {
-        "32": "favicon-48.png"
-      },
-      "default_title": "Quran Portal",
-      "default_popup": "popup.html"
-    },
-    
-    "permissions": [
-      "activeTab",
-      "storage",
-      "downloads"
-    ]
+  "content_scripts": [
+    {
+      "matches": ["*://quran.com/*", "https://quran.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ],
+
+  "web_accessible_resources": [{
+    "resources": ["console.js", "styles.css"],
+    "matches": ["<all_urls>"]
+  }]
 }
-  
